@@ -1,0 +1,82 @@
+.container{
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+/*.sidebar{
+    background-color: rgb(66, 87, 180);
+    margin: 15px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.button{
+    background-color: white;
+    color: rgb(66, 87, 180);
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}*/
+
+.main-menu{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 20px 0;
+    font-family: sans-serif;
+}
+body{
+    background: url(images/фон.png);
+    -moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+}
+
+
+.btn{
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-family: cursive;
+}
+.navigation {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+#underline {
+    color: white;
+} 
+
+.header{
+    background-color: rgba(66, 87, 180, 0.795);
+    text-align: right;
+    background-size: cover;
+    color: white;
+    }
+
+.footer{
+    background-color: rgba(66, 87, 180, 0.795);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#underline {
+    text-decoration: underline;
+    color: white;
+    margin-right: 10px;
+}
+
+main{
+    background-color: rgb(66, 87, 180);
+    color: white;
+}
