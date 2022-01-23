@@ -5,6 +5,8 @@
         <?php echo '<title>'.$name = 'Найдите свою силу!'.' </title>'
         ?>
         <link rel = "stylesheet" href="style.css">
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<1cd6e46c-c95e-407f-aaed-d53fc1161329>" type="text/javascript"></script>
+        <script src="main.js" type="text/javascript"></script>
     </head>
     <body>
         <header class = "header">
@@ -47,12 +49,9 @@
             </div>   
         </header> 
 
-
     <main>
-        <div class="container">
-        <iframe src="https://www.google.com/recaptcha/api2/bframe?hl=ru&v=TDBxTlSsKAUm3tSIa0fwIqNu&k=6LeskyIUAAAAACYtTk4y9h8QwNYDWzXdoPAp6m9h"
-                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <p>
+        <div id="map" class="map">
+            <p>
             Вы можете найти удобные для Вас залы, воспльзовавшись картой!
 </p>
             </div>

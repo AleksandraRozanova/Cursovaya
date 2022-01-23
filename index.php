@@ -57,16 +57,22 @@
                       <p>
                       Тут будет текст описывающий нашу компанию, но об этом немного позже.   
 </p>
+<?=$content?>
+<div class="text-right">
+                <a class="btn" href="page.php">Список всех залов</a>
+            </div>
+            </div>
+    </div>
             </div>
     </main>
     <footer class="footer"> 
         <div class="container">
         &copy; Розанова А.А.
-            </div>
            <?php
            date_default_timezone_set("Europe/Moscow");
            echo '<p>Сформированно:'.date("d.m.y в H-i.s").'<p>';
            ?>
+           </div>
     </footer>
 
     </body>
