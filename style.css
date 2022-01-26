@@ -1,28 +1,9 @@
 .container{
     max-width: 75%;
     margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 24;
 }
-
-/*.sidebar{
-    background-color: rgb(66, 87, 180);
-    margin: 15px;
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.button{
-    background-color: white;
-    color: rgb(66, 87, 180);
-}
-
-.flex{
-    display: flex;
-    justify-content: space-between;
-}*/
 
 .main-menu{
     font-size: 1em;
@@ -36,8 +17,9 @@ body{
     -webkit-background-size: 100%; 
     -o-background-size: 100%; 
     background-size: 100%; 
+    margin: 0;
+    bottom: 0;
 }
-
 
 .btn{
     color: white;
@@ -65,7 +47,7 @@ body{
 .footer{
     background-color: rgba(66, 87, 180, 0.795);
     color: white;
-    position: absolute;
+    margin: 20px 0px 0px 0px;
     bottom: 0;
     width: 100%;
 }
@@ -79,4 +61,28 @@ body{
 main{
     background-color: rgb(66, 87, 180);
     color: white;
+    padding-bottom: 20px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    color: rgb(57, 59, 71);
+    font-weight: bold;
+    border: 2px solid rgb(57, 59, 71);
+    padding: 10px;
+    border-radius: 5px;
+    }
+
+.btn:hover {
+    transition: color 0.5s, border-color 0.5s;
+    color: white;
+    border-color: white;
+}
+
+.map {
+	height: 60vh;
+	width: 55%;
+    margin-bottom: 20px;
 }

@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!doctype html>
+<html>
     <head>
-        <meta charset = "UTF-8">
+    <meta charset = "UTF-8">
         <meta http-equiv="X-UA-Compatiblr" content="IE=edge">
         <meta name="viewport" content="width=device=width, initial-">
         <script src="https://api-maps.yandex.ru/2.1/?apikey=<1cd6e46c-c95e-407f-aaed-d53fc1161329&lang=ru_RU>" type="text/javascript"></script>
@@ -9,7 +9,7 @@
         ?>
         <link rel = "stylesheet" href="style.css">
     </head>
-
+    <body>
     <body>
         <header class = "header">
         <div class="container">
@@ -51,26 +51,18 @@
                 </div>
             </div>   
         </header> 
+        <main>
+        <div id="container">
+            <form method="POST" action="search.php" class="">
+                    <label>Введите название зала</label>
+                    <input type="text" name="gym" />
+                    <button type="submit" class="btn">Показать данные</button>
+                </form>
+                <?=$content?>
 
-
-    <main>
-    <div class="container">
-                      <p>
-                      Дорогие пользователи!
-                      На нашем сайте Вы сможете найти мсето своей силы!!! 
-                      Мы предоставим Вам все многобразие вариантов и дадим возможность познакомиться с каждым из них. 
-                      Таким образом Вы точно сможете найти удобный варинат именно для ВАС!
-</p>
-<!-- <div class="text-right">
-                <a class="btn" href="page.php">Список всех залов</a>
-                <a class="btn" href="cat.php">Поиск</a>
-                <a class="btn" href="map_1.php">Залы на карте</a>
-</div> -->
-<?=$content?>
             </div>
-            </div>
-    </main>
-    <footer class="footer"> 
+</main>
+<footer class="footer"> 
         <div class="container">
         &copy; Розанова А.А.
            <?php
@@ -81,6 +73,4 @@
     </footer>
 
     </body>
-
 </html>
-    
